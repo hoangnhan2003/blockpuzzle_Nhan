@@ -19,9 +19,9 @@ const canvas = document.getElementById('board');
 const ctx = canvas.getContext('2d');
 ctx.canvas.width = COLS*BLOCK_SIZE;
 ctx.canvas.height = ROWS*BLOCK_SIZE;
-let audio = new Audio('../sound/sounds_clear.wav')
-let audio_playing = new Audio('../sound/electro-house-tag-team-13337.mp3');
-let audio_end = new Audio('../sound/ChocoboRacingHungryLand-HoaTau-3316639.mp3');
+let audio = new Audio('sounds_clear.wav')
+let audio_playing = new Audio('electro-house-tag-team-13337.mp3');
+let audio_end = new Audio('ChocoboRacingHungryLand-HoaTau-3316639.mp3');
 let play = document.getElementById('play');
 
 const BRICK_LAYOUT = [
